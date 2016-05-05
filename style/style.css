@@ -1,0 +1,381 @@
+/* Logo on the home Page*/
+#header {
+	width:900px;
+	margin: 10px auto;
+	padding:20px 0px 0px 5px;
+	}
+
+#RKA-logo {
+	background-image:url(../images/RKA_Logo.jpg);
+    	display:block;
+	text-align:left;
+	height:90px;
+	width:300px;
+	overflow:hidden;
+    	text-indent:100%;
+   	white-space:nowrap;
+	background-repeat:no-repeat;
+	}
+
+/* Overflow for the page*/
+body {
+	overflow-y:scroll;
+	width:60%;
+	margin:auto;
+	min-width:900px;
+	max-width:2000px;
+	}
+
+/* Highlights the current page on the navigation bar*/
+#currentPage {
+	color: rgb(75,119,0);
+	}
+
+/* Change of opacity for images on project pages*/
+#projPhotos img	{
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+	}
+#projPhotos img:hover{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	transition:1s;
+	}
+
+/* Navbar displayed on all pages*/
+#navbar {
+	width:100%;
+	margin:1% auto;
+	}
+
+#navbar ul {
+	margin: 0; 
+	text-align:right; 
+	list-style-type: none;  
+	word-spacing: 1em;
+	background-color: #FFFFFF;
+	} 
+ 
+#navbar ul li {  
+	display: inline;
+	}
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: 0px 5px 0px 40px; 
+	color: #000000; 
+	background-color: #FFFFFF;
+	font-family: arial, verdana;
+	font-size: 1em;
+	font-weight: bold; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: rgb(75,119,0); 
+	background-color: #FFFFFF;
+	transition:1s;
+	}
+
+/* Images on the homepage*/
+#images {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	}
+#images div{
+	display: inline-block;
+	}
+.imgWrap img{
+	width:100%;
+	height: 90%
+	min-width: 25px;
+	min-height: 67px;
+	}
+.imgWrap {
+	position:relative;
+	height: 482px;
+	width: %;
+	}
+.imgDescription {
+	position:absolute;
+	top:350;
+	bottom:0;
+	left:0;
+	right:0;
+	background: rgba(75,119,0, 0.60);
+	visibility: hidden;
+	opacity: 0;
+	font-family: arial, verdana;
+	padding:10px 10px 10px 10px
+	}
+.imgWrap a{
+	text-decoration:none;
+	color: rgb(255, 255, 255);
+	font-weight:bold;
+	font-size: 1.0em;
+	text-align:left;
+	}
+.imgWrap:hover .imgDescription {
+	visibility: visible;
+	opacity:1;
+	transition:1s;
+	}
+#homeTable {
+	vertical-align:middle;
+	}
+
+/* Text on all pages, unless noted otherwise*/
+#philHead {
+	color: rgb(75, 119, 0);
+	font-family: arial, verdana;
+	font-weight: bold;
+	}
+
+#text {
+	width:900px;
+	margin: 10px auto;
+	color: rgb(130, 130, 130);
+	}
+
+#philBody {
+	font-family:arial, verdana;
+	font-size:0.75em;
+	width: 900px;
+	line-height:1.6;
+	text-align: justify;
+	}
+
+/* Text on project pages*/
+	#projHead {
+		color: rgb(75, 119, 0);
+		font-family: arial, verdana;
+		font-weight: bold;
+		}
+
+	#projText {
+		width:900px;
+		margin: 10px auto;
+		color: rgb(130, 130, 130);
+		}
+
+	#projBody {
+		font-family:arial, verdana;
+		font-size:0.75em;
+		width: 900px;
+		line-height:1.6;
+		}
+
+	#projBody a {
+		text-decoration:none;
+		color: rgb(130, 130, 130);
+		font-size:1.5em;
+		}
+
+/* Text on project category pages*/
+	#catBody {
+		font-family:arial, verdana;
+		font-size:0.9em;
+		width: 900px;
+		line-height:1.6;
+		}
+
+	#catBody a {
+		text-decoration:none;
+		color: rgb(130, 130, 130);
+		}
+
+/* Text on Contact page*/
+	#contactBody {
+		font-family:arial, verdana;
+		font-size:0.75em;
+		width: 395px;
+		line-height:1.6;
+		}
+	#contactBody a {
+		text-decoration:none;
+		color: rgb(130, 130, 130);
+		}
+	
+	#contactBody a:hover {
+		color: rgb(75,119,0);
+		transition:1s;
+		}
+
+	#contactPage div{
+		display: inline-block;
+		vertical-align: top;
+		}
+	
+/* Table on project pages*/
+	#projTable {
+		padding-top:10px;
+		color: rgb(130, 130, 130);
+		font-family: arial, verdana;
+		font-size:0.75em;
+		line-height:1.6;
+		}
+	
+	#projTable a {
+		text-decoration:none;
+		color: rgb(130, 130, 130);
+		}
+
+	#projTable a:hover {
+		color: rgb(75, 119, 0);
+		transition:1s;
+		}
+
+/* Table on project category pages*/
+#catTable {
+	padding-top:10px;
+	width: 100%;
+	color: rgb(130, 130, 130);
+	text-decoration: none;
+	font-family: arial, verdana;
+	font-size: 0.9em;
+	line-height:1.5;
+	}
+
+#catTable th {
+	text-align: left;
+	}
+	
+#catTable a {
+	text-decoration:none;
+	color: rgb(130, 130, 130);
+	}
+
+#catTable a:hover {
+	color: rgb(75, 119, 0);
+	transition:1s;
+	}
+
+/* Line that breaks the footer on all pages*/
+#line {
+	background-color: rgb(75,119,0);
+	height:4px;
+	width:900px;
+	border:0;
+	}
+	
+/* Notes for the philosophy page*/
+#notes {
+	font-size: 0.65em;
+	font-family:arial, verdana;
+	color: rgb(130, 130, 130);
+	width: 900px;
+	valign:top;
+	}
+
+#notes a{
+	text-decoration:none;
+	color: rgb(130, 130, 130);
+	}
+
+
+#notes a:hover {
+	color: rgb(75, 119, 0);
+	transition: 1s;
+	}
+
+/* Menu displayed on the footer*/
+#textbox {
+	font-size: 0.70em;
+	font-family:arial, verdana;
+	width:900px;
+	margin: 10px auto;
+	}
+
+.menu {
+	float:left;
+	color: rgb(130, 130, 130);
+	text-decoration:none;
+	}
+
+.menu a {
+	text-decoration:none;
+	color: rgb(130, 130, 130);
+	}
+
+.extlinks {
+	float:right;
+	color: rgb(130, 130, 130);
+	}
+
+.extlinks a {
+	text-decoration:none;
+	color: rgb(130, 130, 130);
+	}
+
+/* Footer on the homepage*/
+#home{
+	width:900px;
+	position:absolute;
+	}
+
+/* Categories on the projects page*/
+#proj {
+	width: 900px;
+	margin: 0px auto;
+	text-align: left;
+	}
+#proj div{
+	display: inline-block;
+	padding: 4px 0px 0px 4px;
+	}
+
+#proj img {
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+	}
+
+#proj img:hover {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	transition:1s;
+	}
+
+/* Photos on specific project pages*/
+#projPhotos {
+	width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	position:relative;
+	}
+
+#projPhotos div {
+	display: inline-block;
+	padding: 4px 0px 0px 2px;
+	}
+
+#textBody {
+	width: 900px;
+	margin: 0px auto;
+	text-align: justify;
+	font-family:arial, verdana;
+	color: rgb(130, 130, 130);
+	line-height:1.6;
+	font-size: 0.75em;
+	display: inline-block;
+	}
+
+/* Google Map on Contact page */
+#map_canvas {
+	width:500px;
+	height:400px;
+	background-color:#CCC;
+	text-align:left;
+	}
+
+/* Photo of Raminder Kanetkar on "Profile" page*/
+#ramPhoto {
+	float:left;
+	padding: 0px 20px 0px 0px;
+	}
+
+#title {
+	font-family:arial, verdana;
+	font-size:0.75em;
+	width: 900px;
+	line-height:1.6;
+	}
